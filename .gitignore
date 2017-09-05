@@ -1,0 +1,59 @@
+# Project
+/build/
+
+# Logs
+log/
+logs
+*.log
+
+# IntelliJ
+.idea
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+
+# Eclipse
+.project
+.metadata
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+*.launch
+.factorypath
+
+# Client
+/client/node/
+/client/node_modules/
+/client/src/app/**/*.js
+/client/src/app/**/*.js.map
+
+# Server
+/server/build/
+
+# Gradle
+.gradle/
+
+# Package Files
+*.jar
+*.war
+*.ear
+*.db
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Mac OSX
+.DS_Store
+.svn
+
+# Thumbnails
+._*

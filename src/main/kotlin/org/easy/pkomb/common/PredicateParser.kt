@@ -25,7 +25,7 @@ class PredicateParser<out T, R: Reader<T, R>>(
 
         return Result.Failure(source,
             "Failed to parse using predicate. " +
-                "Expected one or more successful results, but found none.")
+            "Expected one or more successful results, but found none.")
     }
 
 }
